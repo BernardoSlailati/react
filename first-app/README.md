@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Create and Run a New First Project
 
 ### `npx create-react-app first-app`
-*Obs: `npx` pull packages directly from cloud, avoid the nedded of download and intall globally packages.*
+*Obs: `npx` run packages from `npm` directly from cloud, avoid the nedded of download and intall globally packages.*
 ### `cd first-app`
 ### `npm start`
 
