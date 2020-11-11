@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Create and Run a New First Project
+
+### `npx create-react-app first-app`
+*Obs: `npx` pull packages directly from cloud, avoid the nedded of download and intall globally packages.*
+### `cd first-app`
+### `npm start`
+
 ## Available Scripts
 
 In the project directory, you can run:
