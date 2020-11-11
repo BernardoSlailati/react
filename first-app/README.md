@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Here](https://create-react-app.dev/docs/getting-started/#npm-start-or-yarn-start), you can see how to getting started projects with Created React App.
 
 ## Available Scripts
 
