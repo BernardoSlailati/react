@@ -1,0 +1,16 @@
+Componente -> Dispatch(Action) -> Reducer -> Componente
+
+- Baixar dependências: npm i -s redux react-redux redux-thunk (último permite ações assíncronas ao redux)
+- Importar fonte Roboto: @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+- Criar store
+- Criar components Products e ProductForm
+- Importá-los em App.js
+- Criar actions products e api (trata requisições http usando axios, baixar dependência npm i -s axios)
+- Criar reducer product
+- Importar action api em actions product
+- Aplicar conceito de react hooks em components products
+- Importar "dotnet add package Microsoft.AspNetCore.Cors --version 2.2.0" no projeto API para permitir acesso
+  do React à API via portas localhost
+    Em StartUp -> Configure :
+      app.UseCors(options => options.WithOrigins("http://localhost:3000").AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
+- Adicionar ReduxDevTools no Chrome e "window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()" em store
